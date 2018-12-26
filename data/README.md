@@ -1,0 +1,1 @@
+The College Scorecard data is too large to put in the repository. To obtain the College Scorecard data, download all the data [here](https://collegescorecard.ed.gov/data/), unzip it, and put it into the `/data/scorecard` directory.
