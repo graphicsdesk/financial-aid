@@ -1,2 +1,1 @@
-# financial-aid
-Analyzing financial aid at Columbia.
+# Financial Aid at Columbia University
