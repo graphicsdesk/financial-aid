@@ -9,3 +9,6 @@ This project uses `pipenv` for dependency management. Follow these steps to run 
 
 The `scorecard` notebook uses data from the College Scorecard. That data is too large to include in this repository, and it has to be downloaded separately. Instructions for doing so are in `/data`.
 
+## Helpful Resources
+
+[College Scorecard Data Documentation](https://collegescorecard.ed.gov/assets/FullDataDocumentation.pdf)
