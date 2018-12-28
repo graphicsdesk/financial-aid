@@ -5,6 +5,5 @@ do
   yr="$( printf '%02d' "$year" )"
   nxt="$( printf '%02d' "$((year+1))" )"
   echo "20${yr}"
-  csvcut -c 4,NPT41_PRIV,NPT42_PRIV,NPT43_PRIV,NPT44_PRIV,NPT45_PRIV,PCTPELL MERGED20${yr}_${nxt}_PP.csv | csvgrep -c 1 -m 'Columbia University in the City of New York' | csvlook
-  #csvcut -c 4,NPT41_PRIV,NPT42_PRIV,NPT43_PRIV,NPT44_PRIV,NPT45_PRIV,LO_INC_DEBT_MDN,MD_INC_DEBT_MDN,HI_INC_DEBT_MDN MERGED20${yr}_${nxt}_PP.csv | csvgrep -c 1 -m 'Harvard University' | csvlook
+  csvcut -c 4,NPT41_PRIV,NPT42_PRIV,NPT43_PRIV,NPT44_PRIV,NPT45_PRIV,PCTPELL data/scorecard/MERGED20${yr}_${nxt}_PP.csv | csvgrep -c 1 -m 'Columbia University in the City of New York' | csvlook
 done
