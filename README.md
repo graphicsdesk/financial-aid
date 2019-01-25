@@ -12,3 +12,7 @@ The `scorecard` notebook uses data from the College Scorecard. That data is too 
 ## Helpful Resources
 
 [College Scorecard Data Documentation](https://collegescorecard.ed.gov/assets/FullDataDocumentation.pdf)
+
+## More Data
+
+[Google Sheets: Pell and loans data](https://docs.google.com/spreadsheets/d/1XJFsbns_plOeWFO_bTKEDr3BRrMXmMDvqf65rIQlOYA/edit#gid=0)
